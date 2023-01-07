@@ -29,6 +29,10 @@ button{
     line-height: 23px;
     color: #fff;
 }
+.btn-white{
+    background: #fff;
+    color: #f15b22;
+}
 /* Header Style*/
 header{
     background-image: url("./images/banner/banner2.png");
@@ -115,4 +119,52 @@ main li{
 }
 .call-now{
     padding: 40px;
+}
+/* footer styles */
+footer{
+    background-color: #151414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.future{
+    width: 500px;
+}
+.subscribe{
+    width: 400px;
+}
+footer h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+footer a{
+    margin-right: 10px;
+}
+footer h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+footer input{
+    background: transparent;
+    width: 300px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+footer input::placeholder{
+    color: #fff;
 }
